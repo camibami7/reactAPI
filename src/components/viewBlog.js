@@ -41,7 +41,7 @@ export default class ViewBlog extends Component {
 
         const { id } = this.props.match.params
 
-        fetch (`https://cg-python-back-api.herokuapp.com/return_blog/${id}`, {
+        fetch (`http://localhost:5000/return_blog/${id}`, {
           method: "GET",
           headers: {
             "accept": "application/json",
