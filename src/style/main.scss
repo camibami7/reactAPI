@@ -1,0 +1,61 @@
+
+.blogIndex {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.blog-card {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.links a {
+    color: maroon;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+}
+
+.links a:hover {
+    border-bottom: 1px solid maroon;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 20px;
+    font-size: 1.3em;
+    
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: maroon;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.NavBar a:hover {
+    border: 2px solid maroon;
+    
+}
+
+.blog {
+    padding-left: 20px;
+}
